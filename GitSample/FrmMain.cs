@@ -47,5 +47,20 @@ namespace GitSample
             //c + d = txtResult
             txtResult.Text = (c * d).ToString();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string a = txtExpression1.Text;//txtExpression1の値を取得
+
+            //txtExpression2.Text = "";
+            string b = txtExpression2.Text;
+
+            double c = double.Parse(a);
+
+            double d = double.Parse(b);
+
+            //c + d = txtResult
+            txtResult.Text = (c / d).ToString();
+        }
     }
 }
