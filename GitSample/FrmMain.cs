@@ -16,5 +16,21 @@ namespace GitSample
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //txtExpression1.Text = "";
+            string a = txtExpression1.Text;//txtExpression1の値を取得
+
+            //txtExpression2.Text = "";
+            string b = txtExpression2.Text;
+
+            int c = int.Parse(a);
+
+            int d = int.Parse(b);
+
+            //c + d = txtResult
+            txtResult.Text = (c + d).ToString();
+        }
     }
 }
