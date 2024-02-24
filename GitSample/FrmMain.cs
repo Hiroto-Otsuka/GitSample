@@ -60,7 +60,7 @@ namespace GitSample
             double d = double.Parse(b);
 
             //c + d = txtResult
-            txtResult.Text = (c / d).ToString();
+            txtResult.Text = (c / d).ToString();//
         }
     }
 }
